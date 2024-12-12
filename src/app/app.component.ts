@@ -13,11 +13,7 @@ import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edi
   imports: [
     HeaderComponent,
     RecipesComponent,
-    RecipeListComponent,
-    RecipeItemComponent,
-    RecipeDetailComponent,
     ShopingListComponent,
-    ShoppingEditComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
