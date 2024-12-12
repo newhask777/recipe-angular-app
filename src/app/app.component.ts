@@ -24,4 +24,10 @@ import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edi
 })
 export class AppComponent {
   title = 'recipe-angular';
+
+  loadedFeature = 'recipe';
+
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
+  }
 }
