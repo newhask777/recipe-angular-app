@@ -7,6 +7,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
 import { ShopingListComponent } from './shoping-list/shoping-list.component';
 import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edit.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edi
     HeaderComponent,
     RecipesComponent,
     ShopingListComponent,
+    DropdownDirective
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
