@@ -8,6 +8,8 @@ import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.com
 import { ShopingListComponent } from './shoping-list/shoping-list.component';
 import { ShoppingEditComponent } from './shoping-list/shopping-edit/shopping-edit.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { RecipeService } from './recipes/recipe.service';
+import { ShoppingService } from './shoping-list/shopping-list.service';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +17,10 @@ import { DropdownDirective } from './shared/dropdown.directive';
     HeaderComponent,
     RecipesComponent,
     ShopingListComponent,
-    DropdownDirective
+  ],
+  providers: [
+    RecipeService,
+    ShoppingService
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
